@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slider-container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
+}
+
+/* .images-container {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: auto;
+} */
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+.images-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: -15px;
+}
+
+.dots-container {
+  width: 25%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dfd9d9;
+  border-radius: 9px;
+  position: relative;
+  top: -35px;
+}
+
+.App {
+  background-color: #fcf9f9;
+}
+
+a.categori-info {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+
+.detay-text {
+  padding-left: 13px;
+  border-top: 1px solid #ece4e4;
+  background-color: white;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+p.detail-info {
+  margin: 0;
+  font-size: 14px;
+}
+
+span.special {
+  font-weight: bold;
+}
+
+.sepet-container {
+  background-color: white;
+  border-top: 1px solid #efe5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px;
+  color: #f27a1a;
+  font-weight: bold;
+}
+
+button.sepet-button {
+  padding: 11px 78px;
+  border: none;
+  background-color: #f27a1a;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-radius: 6px;
 }
